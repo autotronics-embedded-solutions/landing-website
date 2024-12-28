@@ -42,7 +42,7 @@ export default function Navbar() {
 
                 <ul className="h-20 w-fit flex gap-5 items-center">
                     {links.map((link) => (
-                        <li className="text-white">
+                        <li key={"link_navbar_"+link.name} className="text-white">
                             <a href={link.link} className={`hover:text-violet-300 ${link.className}`}>
                                 {link.name}
                             </a>
