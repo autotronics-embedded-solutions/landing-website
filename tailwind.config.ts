@@ -63,8 +63,7 @@ const config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
-      },
-      
+      }, 
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -123,6 +122,9 @@ const config = {
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
       },
+      fontFamily: {
+        "tourney": "var(--font-tourney)", 
+      }
     },
   },
   plugins: [require("tailwindcss-animate"), addVariablesForColors],

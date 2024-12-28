@@ -31,9 +31,13 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="w-full h-20 px-10 flex justify-between bg-black/90 fixed top-0 z-50">
-                <div className="w-16 h-16 m-2 bg-white flex items-center rounded-xl">
+            <div className="w-full h-20 px-10 flex justify-between bg-black/50 fixed bg-opacity-50 backdrop-blur top-0 z-50">
+                {/* <div className="w-16 h-16 m-2 bg-white flex items-center rounded-xl">
                     <img src="./autotronicslogo.svg" />
+                </div> */}
+
+                <div className="h-16 m-2 flex items-center rounded-xl text-white font-tourney">
+                    Autotronics
                 </div>
 
                 <ul className="h-20 w-fit flex gap-5 items-center">

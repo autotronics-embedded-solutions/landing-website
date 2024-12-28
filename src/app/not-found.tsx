@@ -15,7 +15,7 @@ export default function NotFound() {
                 </div>
             </div>
 
-            <div className="absolute bottom-0 w-full flex justify-end text-white">
+            <div className="absolute bottom-0 right-5 text-white/70 text-xs">
                 <a href="https://www.flaticon.com/free-icon/car_3242238?term=broken+car&related_id=3242238" className="underline">Car Crash Icon</a>&nbsp;by&nbsp;<a className="underline" href="https://www.flaticon.com/authors/surang/fill?author_id=275&type=standard">Surang</a>
             </div>
         </>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Montserrat, Tourney } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 
@@ -10,14 +10,20 @@ export const metadata: Metadata = {
     description: "Autonomous Software Solutions",
 };
 
-export default function RootLayout({
+const tourneyFont = Tourney({
+    weight: '400',
+    subsets: ['latin'],
+    variable: '--font-tourney',
+    });
+
+      export default function RootLayout({
     children,
 }: Readonly<{
     children: React.ReactNode;
 }>) {
     return (
         <html lang="en">
-            <body className={`${montserrat.className} h-screen w-screen overflow-x-hidden selection:bg-violet-300/50`}>
+            <body className={`${montserrat.className} ${tourneyFont.variable} h-screen w-screen overflow-x-hidden selection:bg-violet-300/50`}>
                 <Navbar />
                 {children}
             </body>

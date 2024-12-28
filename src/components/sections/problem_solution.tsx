@@ -1,14 +1,14 @@
 export default function ProblemSolutionSection ({}) {
     return (<>
-        <div className="w-full h-screen bg-orange-400 flex items-center justify-center gap-20">
+        <div className="w-full h-screen bg-purple-300 flex lg:flex-row flex-col items-center justify-center gap-20">
             <div className=" w-[500px] h-[300px] bg-black">
 
             </div>
 
             <div className="w-[500px] h-[300px]">
-                <h1 className="font-medium text-3xl text-pretty">Lorem ipsum dolor sit, amet consectetur adipi sicing elit?</h1>
-                <p className="text-xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt excepturi nesciunt sunt, sequi, ipsum dolor aperiam accusamus, fugit praesentium officiis veniam? Suscipit non exercitationem fuga dolorem impedit dolor quia at.
+                <h1 className="font-medium text-3xl text-pretty">Looking for the best talent for you next project?</h1>
+                <p className="text-xl mt-12">
+                    Our team comprising of the highly experienced industrial leaders can you help you find just the right people for your project.
                 </p>
             </div>
         </div>

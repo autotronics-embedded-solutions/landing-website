@@ -4,7 +4,7 @@ import BenefitsSection from "@/components/sections/benefits";
 import HeroSection from "@/components/sections/hero";
 import ProblemSolutionSection from "@/components/sections/problem_solution";
 import ServicesSection from "@/components/sections/services";
-import TechnologiesSection from "@/components/sections/technologies";
+import ClosingRemark from "@/components/sections/closing";
 import Image from "next/image";
 
 export default function Home() {
@@ -14,8 +14,8 @@ export default function Home() {
             <ProblemSolutionSection />
             <BenefitsSection />
             <ServicesSection />
-            <TechnologiesSection />
-            <div className=" bg-slate-400 w-full flex items-center justify-center p-10">
+            <ClosingRemark />
+            <div className=" bg-white w-full flex items-center justify-center p-10">
                 <CTAButton />
             </div>
 
