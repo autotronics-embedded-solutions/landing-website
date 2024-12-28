@@ -7,6 +7,8 @@ import ServicesSection from "@/components/sections/services";
 import ClosingRemark from "@/components/sections/closing";
 import Image from "next/image";
 
+export const dynamic = "force-dynamic";
+
 export default function Home() {
     return (
         <main className="flex flex-col min-h-full max-h-fit items-center justify-between bg-black">
