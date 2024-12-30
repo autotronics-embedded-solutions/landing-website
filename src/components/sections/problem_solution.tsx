@@ -13,7 +13,7 @@ export default function ProblemSolutionSection ({}) {
             <div className="w-[500px] h-[200px]">
                 <h1 className="font-medium text-3xl text-center sm:text-pretty sm:text-left">Looking for the best talent for your next project?</h1>
                 <p className="text-xl mt-12 text-center sm:text-left">
-                    Our team comprising of highly experienced industrial experts and skilled talent can help you find tailored solutions or support for your project.
+                    Our team, which consists of highly qualified talent and seasoned industry experts, can assist you in locating specialized solutions or support for your project.
                 </p>
             </div>
 

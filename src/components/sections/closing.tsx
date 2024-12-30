@@ -8,9 +8,9 @@ export default function ClosingRemark () {
             </div> */}
 
             <div className="w-[500px] h-[50px] flex flex-col justify-center items-center">
-                <h1 className="font-medium text-3xl text-center text-pretty">What sets us apart from the rest?</h1>
+                <h1 className="font-medium text-3xl text-center text-pretty">What distinguishes us from others?</h1>
                 <p className="text-xl mt-12 text-center">
-                    We constatly innovate for softwares and solutions to help you move ahead in the industry. Hence, we can drive your ideation to execution and deliver precisely analysed solutions and resources. 
+                    We consistently develop software and solutions to help you advance in the market. As a result, we are able to translate your ideas into action and provide carefully considered resources and solutions.
                 </p>
             </div>
 

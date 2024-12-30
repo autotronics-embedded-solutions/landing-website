@@ -8,7 +8,7 @@ export default function ServicesSection () {
             <div className="w-[500px] h-[200px]">
                 <h1 className="font-medium text-3xl text-pretty">What other services do we provide?</h1>
                 <p className="text-xl mt-12">
-                    Along with the best talent in the market tailored to your specific needs, we also develop comprehensive software solutions for future automotive technologies. 
+                    In addition to providing you with the best talent available, we also create comprehensive software solutions for upcoming automotive technologies. 
                 </p>
             </div>
 

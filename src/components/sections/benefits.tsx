@@ -5,7 +5,7 @@ export default function BenefitsSection () {
             <div className="w-[500px] h-[200px]">
                 <h1 className="font-medium text-3xl text-pretty">What benefits do our talent bring you?</h1>
                 <p className="text-xl mt-12">
-                    Our talents are personally hand-picked paired with quality in-house training. Hence they bring you the utmost quality and efficient results.
+                    We personally select our talent and provide them with top-notch internal training. As a result, they provide you with the best possible quality and effectiveness.
                 </p>
             </div>
 
