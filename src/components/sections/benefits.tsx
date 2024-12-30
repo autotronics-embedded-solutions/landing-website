@@ -10,7 +10,7 @@ export default function BenefitsSection () {
             </div>
 
             <div className=" w-[400px] h-[200px] flex items-center justify-center">
-                <img src="./happiness.png" className="h-[90%] ml-20"/>
+                <img src="./happiness.png" className="h-[90%] sm:ml-20"/>
             </div>
 
             <div className="absolute -bottom-5 left-0 w-full h-16 bg-gradient-to-b from-purple-300 to-purple-200"/>

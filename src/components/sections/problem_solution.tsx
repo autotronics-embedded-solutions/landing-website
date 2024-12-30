@@ -7,7 +7,7 @@ export default function ProblemSolutionSection ({}) {
             </div> */}
 
             <div className=" w-[400px] h-[200px] flex items-center justify-center">
-                <img src="./whitepeople.png" className="h-[100%] mr-20"/>
+                <img src="./whitepeople.png" className="h-[100%] sm:mr-20"/>
             </div>
 
             <div className="w-[500px] h-[200px]">

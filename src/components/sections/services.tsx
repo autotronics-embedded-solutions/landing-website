@@ -2,7 +2,7 @@ export default function ServicesSection () {
     return (<>
         <div className="w-full h-screen bg-gradient-to-b from-purple-200 to-purple-50 flex lg:flex-row flex-col items-center justify-center gap-20 relative">
             <div className=" w-[400px] h-[200px] flex items-center justify-center">
-                <img src="./benefit.png" className="h-[90%] mr-32 mb-10"/>
+                <img src="./benefit.png" className="h-[90%] sm:mr-32 sm:mb-10"/>
             </div>
 
             <div className="w-[500px] h-[200px]">

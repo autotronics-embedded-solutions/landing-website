@@ -2,7 +2,7 @@ import CTAButton from "../ctaButton";
 
 export default function ClosingRemark () {
     return (<>
-        <div className="w-full h-screen bg-white flex lg:flex-row flex-col items-center justify-center gap-20">
+        <div className="w-full h-screen bg-white flex lg:flex-row flex-col items-center justify-center gap-1 sm:gap-20">
             {/* <div className=" w-[500px] h-[300px] bg-black">
 
             </div> */}
