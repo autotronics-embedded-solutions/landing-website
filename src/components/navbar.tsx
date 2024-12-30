@@ -10,18 +10,18 @@ export default function Navbar() {
             name: "Home",
             link: "/",
         },
-        {
-            name: "About",
-            link: "/about",
-        },
-        {
-            name: "Services",
-            link: "/services",
-        },
-        {
-            name: "Blog",
-            link: "/blog",
-        },
+        // {
+        //     name: "About",
+        //     link: "/about",
+        // },
+        // {
+        //     name: "Services",
+        //     link: "/services",
+        // },
+        // {
+        //     name: "Blog",
+        //     link: "/blog",
+        // },
         {
             name: "Contact",
             link: "/contact",
@@ -31,12 +31,12 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="w-full h-20 px-10 flex justify-between bg-black/50 fixed bg-opacity-50 backdrop-blur top-0 z-50">
+            <div className="w-full h-20 px-10 flex justify-between items-center bg-black/80 fixed bg-opacity-50 backdrop-blur top-0 z-50">
                 {/* <div className="w-16 h-16 m-2 bg-white flex items-center rounded-xl">
                     <img src="./autotronicslogo.svg" />
                 </div> */}
 
-                <div className="h-16 m-2 flex items-center rounded-xl text-white font-tourney">
+                <div className="flex items-center h-full rounded-xl text-white font-tourney">
                     Autotronics
                 </div>
 

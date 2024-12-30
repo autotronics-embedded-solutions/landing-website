@@ -17,11 +17,11 @@ export default function Home() {
             <BenefitsSection />
             <ServicesSection />
             <ClosingRemark />
-            <div className=" bg-white w-full flex items-center justify-center p-10">
-                <CTAButton />
-            </div>
+            {/* <div className=" bg-white w-full flex items-center justify-center p-10">
+                
+            </div> */}
 
-            <Footer/>
+            {/* <Footer/> */}
         </main>
     );
 }

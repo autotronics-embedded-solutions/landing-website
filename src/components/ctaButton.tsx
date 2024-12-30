@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 export default function CTAButton({ className }: {className?: string}) {
@@ -5,11 +6,14 @@ export default function CTAButton({ className }: {className?: string}) {
         <>
                 <Button
                     variant={"outline"}
-                    className={`rounded-3xl py-7 px-10 flex flex-row items-center justify-center hover:bg-white/10 ${className}`}
+                    className={`rounded-3xl py-7 px-10 flex flex-row items-center justify-center hover:bg-white/10 active:bg-white/20 focus:outline-none focus:ring focus:ring-violet-300 ${className}`}
+                    asChild
                 >
-                    <p className="text-xl tracking-wide h-fit">
-                        Help me find the <span className=" underline">best</span> resources
-                    </p>
+                    <Link href={"/contact"}>                    
+                        <p className="text-xl tracking-wide h-fit">
+                            Help me find the <span className=" underline">best</span> solutions
+                        </p>
+                    </Link>
                 </Button>
         </>
     );
