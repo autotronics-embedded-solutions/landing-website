@@ -12,7 +12,7 @@ export default function Contact() {
             <div className="h-[200px] w-[1px] bg-gradient-to-b from-gray-950/50 via-gray-600/50 to-gray-950/50 hidden sm:block"/>
 
             <div className="w-[450px] h-[300px] flex flex-col items-center justify-center gap-5">
-                <h1 className="text-center font-medium text-2xl">For Career Opportunities, Contact Us At: </h1>
+                <h1 className="text-center font-medium text-2xl">For Career Opportunities, &nbsp; Contact Us At: </h1>
                 <img className="h-[80px]" src="./cooperation.png"></img>
                 <a className="text-blue-400 underline" href="mailto:hr@autotronics.co.in">hr@autotronics.co.in</a>
             </div>
